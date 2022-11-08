@@ -1,0 +1,17 @@
+{
+  "name": "bbb",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "A template for kickstarting a Flareact project",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "azion-framework-adapter build",
+    "deploy": "azion-framework-adapter publish"
+  },
+  "dependencies": {
+    "flareact": "^1.2.1",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  }
+}
